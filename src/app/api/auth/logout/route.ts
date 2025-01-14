@@ -1,7 +1,7 @@
 import { cookies } from "next/headers";
-import { NextRequest, NextResponse } from "next/server";
+import { NextResponse } from "next/server";
 
-async function handler(req: NextRequest) {
+async function handler() {
 	const cookieStore = await cookies();
 
 	// if (cookieStore.has("sessionData"))
