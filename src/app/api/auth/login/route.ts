@@ -12,7 +12,7 @@ async function handler(req: NextRequest) {
 	// console.log(JSON.stringify(userData));
 	// console.log(userID);
 
-	const data = userData.filter(
+	const data = userData.find(
 		(user: {
 			id: number;
 			username: string;
