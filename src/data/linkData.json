@@ -1,0 +1,22 @@
+[
+	{
+		"url": "/dashboard",
+		"name": "Dashboard"
+	},
+	{
+		"url": "/",
+		"name": "Home"
+	},
+	{
+		"url": "/login",
+		"name": "Login"
+	},
+	{
+		"url": "/orders",
+		"name": "Orders"
+	},
+	{
+		"url": "/settings",
+		"name": "Settings"
+	}
+]
